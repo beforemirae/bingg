@@ -1,0 +1,49 @@
+.section {
+    padding-bottom: 140px;
+}
+h3.sec_tit {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.45;
+    letter-spacing: -1.9px;
+    color: #1f1f1f;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section02 {
+    background: url(https://www.bing.co.kr/img/main/2023/pc_section02_1.png) no-repeat center / cover;
+}
+
+.sec02_slider{
+    max-width: 1650px;
+    width: 100%;
+    margin: 0 auto 140px;
+    position: relative;
+}
+
+.sec02_slider.sec02_slider01 h3.sec_tit,
+.sec02_slider.sec02_slider02 h3.sec_tit {
+    margin-bottom: 20px;
+}
+.sec02_slider01_list,
+.sec02_slider02_list {
+    overflow: hidden;
+}
+.sec02_slider01_list .slick-list,
+.sec02_slider02_list .slick-list {
+    max-width: 1573px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 7px;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}

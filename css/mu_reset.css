@@ -1,0 +1,60 @@
+/* ** RESET ** */
+*{
+	font-family: 'Poppins','Noto Sans KR', sans-serif;
+	line-height:1.6;
+	line-height:30px;
+	box-sizing:border-box;
+	font-size:14px;
+	font-style: normal;
+	color: #1f1f1f;
+	letter-spacing:-0.09em;
+	padding:0;
+	margin:0;
+}
+
+a, button{
+	-webkit-transition:0.4s;
+	transition:0.4s;
+}
+button{
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+  }
+  a, a:hover, a:focus, button{
+	text-decoration:none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	color: inherit;
+}
+img{
+	max-width:100%;
+	vertical-align:top;
+}
+
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    -webkit-border-radius: 0;
+    border:1px solid #d2d2d2;
+    /* background: url(/img/sub/investment/ir/select_btn02.png) no-repeat right 20px center; */
+    background-size:12px;
+	width: 100%;
+    padding-left: 20px;
+
+}
+select::-ms-expand {
+    display: none;
+}
+
+.flex_center {
+	display: flex;
+	align-items: center;
+}
